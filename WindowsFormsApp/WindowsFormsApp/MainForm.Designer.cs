@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.topPanel = new System.Windows.Forms.Panel();
+            this.btnLogout = new System.Windows.Forms.Button();
+            this.labelRole = new System.Windows.Forms.Label();
+            this.labelUser = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnPracticeLessons = new System.Windows.Forms.Button();
             this.btnExams = new System.Windows.Forms.Button();
@@ -38,10 +41,6 @@
             this.btnInstructors = new System.Windows.Forms.Button();
             this.btnStudents = new System.Windows.Forms.Button();
             this.contentPanel = new System.Windows.Forms.Panel();
-            this.labelTittle = new System.Windows.Forms.Label();
-            this.labelUser = new System.Windows.Forms.Label();
-            this.labelRole = new System.Windows.Forms.Label();
-            this.btnLogout = new System.Windows.Forms.Button();
             this.topPanel.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -51,12 +50,41 @@
             this.topPanel.Controls.Add(this.btnLogout);
             this.topPanel.Controls.Add(this.labelRole);
             this.topPanel.Controls.Add(this.labelUser);
-            this.topPanel.Controls.Add(this.labelTittle);
             this.topPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.topPanel.Location = new System.Drawing.Point(0, 0);
             this.topPanel.Name = "topPanel";
             this.topPanel.Size = new System.Drawing.Size(1182, 60);
             this.topPanel.TabIndex = 0;
+            // 
+            // btnLogout
+            // 
+            this.btnLogout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnLogout.Location = new System.Drawing.Point(1070, 12);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(100, 35);
+            this.btnLogout.TabIndex = 3;
+            this.btnLogout.Text = "Выход";
+            this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            // 
+            // labelRole
+            // 
+            this.labelRole.AutoSize = true;
+            this.labelRole.Location = new System.Drawing.Point(217, 21);
+            this.labelRole.Name = "labelRole";
+            this.labelRole.Size = new System.Drawing.Size(42, 16);
+            this.labelRole.TabIndex = 2;
+            this.labelRole.Text = "Роль:";
+            this.labelRole.Click += new System.EventHandler(this.labelRole_Click);
+            // 
+            // labelUser
+            // 
+            this.labelUser.AutoSize = true;
+            this.labelUser.Location = new System.Drawing.Point(28, 21);
+            this.labelUser.Name = "labelUser";
+            this.labelUser.Size = new System.Drawing.Size(105, 16);
+            this.labelUser.TabIndex = 1;
+            this.labelUser.Text = "Пользователь:";
             // 
             // panel1
             // 
@@ -70,7 +98,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 60);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 593);
+            this.panel1.Size = new System.Drawing.Size(200, 543);
             this.panel1.TabIndex = 2;
             // 
             // btnPracticeLessons
@@ -148,61 +176,20 @@
             this.contentPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.contentPanel.Location = new System.Drawing.Point(200, 60);
             this.contentPanel.Name = "contentPanel";
-            this.contentPanel.Size = new System.Drawing.Size(982, 593);
+            this.contentPanel.Size = new System.Drawing.Size(982, 543);
             this.contentPanel.TabIndex = 3;
-            // 
-            // labelTittle
-            // 
-            this.labelTittle.AutoSize = true;
-            this.labelTittle.Location = new System.Drawing.Point(20, 18);
-            this.labelTittle.Name = "labelTittle";
-            this.labelTittle.Size = new System.Drawing.Size(266, 16);
-            this.labelTittle.TabIndex = 0;
-            this.labelTittle.Text = "Информационная система \"Автошкола\"";
-            // 
-            // labelUser
-            // 
-            this.labelUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelUser.AutoSize = true;
-            this.labelUser.Location = new System.Drawing.Point(327, 18);
-            this.labelUser.Name = "labelUser";
-            this.labelUser.Size = new System.Drawing.Size(105, 16);
-            this.labelUser.TabIndex = 1;
-            this.labelUser.Text = "Пользователь:";
-            // 
-            // labelRole
-            // 
-            this.labelRole.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelRole.AutoSize = true;
-            this.labelRole.Location = new System.Drawing.Point(536, 18);
-            this.labelRole.Name = "labelRole";
-            this.labelRole.Size = new System.Drawing.Size(42, 16);
-            this.labelRole.TabIndex = 2;
-            this.labelRole.Text = "Роль:";
-            this.labelRole.Click += new System.EventHandler(this.labelRole_Click);
-            // 
-            // btnLogout
-            // 
-            this.btnLogout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnLogout.Location = new System.Drawing.Point(1070, 12);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(100, 35);
-            this.btnLogout.TabIndex = 3;
-            this.btnLogout.Text = "Выход";
-            this.btnLogout.UseVisualStyleBackColor = true;
-            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1182, 653);
+            this.ClientSize = new System.Drawing.Size(1182, 603);
             this.Controls.Add(this.contentPanel);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.topPanel);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Главная форма";
+            this.Text = "Информационная система \"Автошкола\"";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.topPanel.ResumeLayout(false);
             this.topPanel.PerformLayout();
@@ -225,7 +212,6 @@
         private System.Windows.Forms.Panel contentPanel;
         private System.Windows.Forms.Label labelRole;
         private System.Windows.Forms.Label labelUser;
-        private System.Windows.Forms.Label labelTittle;
         private System.Windows.Forms.Button btnLogout;
     }
 }

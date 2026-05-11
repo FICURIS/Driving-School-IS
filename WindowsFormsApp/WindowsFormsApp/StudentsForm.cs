@@ -17,7 +17,7 @@ namespace WindowsFormsApp
         {
             InitializeComponent();
         }
-        
+
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -30,5 +30,43 @@ namespace WindowsFormsApp
             this.studentsTableAdapter.Fill(this.drivingSchoolDataBaseDataSet1.Students);
 
         }
+
+        private void btnPoisk_Click(object sender, EventArgs e)
+        {
+            using (SqlConnection con = new SqlConnection(Properties.Settings.Default.DrivingSchoolDataBaseConnectionString))
+            {
+                con.Open();
+
+                string query = "SELECT * FROM Students" + " WHERE LastName LIKE @search" + " OR FirstName LIKE @search" + " OR MiddleName LIKE @search";
+
+                SqlDataAdapter adapter = new SqlDataAdapter(query, con);
+
+                adapter.SelectCommand.Parameters.AddWithValue("@search", "%" + textBoxPoisk.Text + "%");
+
+                DataTable table = new DataTable();
+
+                adapter.Fill(table);
+
+                dataGridView1.DataSource = table;
+            }
+        }
+
+        private void textBoxPoisk_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ManageStudentsForm frm = new ManageStudentsForm();
+
+            frm.ShowDialog();
+        }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
     }
 }

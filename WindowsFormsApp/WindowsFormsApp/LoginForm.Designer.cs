@@ -59,7 +59,7 @@
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(110, 40);
             this.btnLogin.TabIndex = 4;
-            this.btnLogin.Text = "Вход";
+            this.btnLogin.Text = "Войти";
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
@@ -101,8 +101,9 @@
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(110, 40);
             this.btnRegister.TabIndex = 5;
-            this.btnRegister.Text = "Регистрация";
+            this.btnRegister.Text = "Выход";
             this.btnRegister.UseVisualStyleBackColor = true;
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
             // LoginForm
             // 
