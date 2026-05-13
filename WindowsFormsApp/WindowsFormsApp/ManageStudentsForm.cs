@@ -26,36 +26,57 @@ namespace WindowsFormsApp
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            using (SqlConnection con = new SqlConnection(Properties.Settings.Default.DrivingSchoolDataBaseConnectionString))
+            using (SqlConnection con =
+        new SqlConnection(Properties.Settings.Default.DrivingSchoolDataBaseConnectionString))
             {
                 con.Open();
 
-                string query = "INSERT INTO Students " + "(LastName, FirstName, MiddleName, " + "BirthDate,PhoneNumber, Email, Address, GroupID) " + "VALUES " + "(@lastName, @firstName, @middleName, " + "@birthDate, @phone, @email, @address, @groupId)";
+                string query;
+
+                if (isEditMode)
+                {
+                    query =
+                        "UPDATE Students SET " +
+                        "LastName=@lastName, " +
+                        "FirstName=@firstName, " +
+                        "MiddleName=@middleName, " +
+                        "BirthDate=@birthDate, " +
+                        "PhoneNumber=@phone, " +
+                        "Email=@email, " +
+                        "Address=@address, " +
+                        "GroupID=@groupId " +
+                        "WHERE StudentID=@id";
+                }
+                else
+                {
+                    query =
+                        "INSERT INTO Students " +
+                        "(LastName, FirstName, MiddleName, BirthDate, PhoneNumber, Email, Address, GroupID) " +
+                        "VALUES " +
+                        "(@lastName, @firstName, @middleName, @birthDate, @phone, @email, @address, @groupId)";
+                }
 
                 SqlCommand cmd = new SqlCommand(query, con);
 
                 cmd.Parameters.AddWithValue("@lastName", textBoxLastName.Text);
-
                 cmd.Parameters.AddWithValue("@firstName", textBoxFirstName.Text);
-
                 cmd.Parameters.AddWithValue("@middleName", textBoxMiddleName.Text);
-
                 cmd.Parameters.AddWithValue("@birthDate", dtBirthDate.Value);
-
                 cmd.Parameters.AddWithValue("@phone", textBoxPhone.Text);
-
                 cmd.Parameters.AddWithValue("@email", textBoxEmail.Text);
-
                 cmd.Parameters.AddWithValue("@address", textBoxAddress.Text);
-
                 cmd.Parameters.AddWithValue("@groupId", comboBoxGroup.SelectedValue);
 
-                cmd.ExecuteNonQuery();
+                if (isEditMode)
+                    cmd.Parameters.AddWithValue("@id", studentId);
 
-                MessageBox.Show("Курсант добавлен");
-                this.Close();
+                cmd.ExecuteNonQuery();
             }
+
+            MessageBox.Show("Сохранено");
+            this.Close();
         }
+        
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
@@ -94,5 +115,50 @@ namespace WindowsFormsApp
             }
         }
 
+        private void ManageStudentsForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private int studentId;
+        private bool isEditMode = false;
+
+        public ManageStudentsForm(int id)
+        {
+            InitializeComponent();
+
+            studentId = id;
+            isEditMode = true;
+
+            LoadGroups();
+            LoadStudentData();
+        }
+
+        private void LoadStudentData()
+        {
+            using (SqlConnection con = new SqlConnection(Properties.Settings.Default.DrivingSchoolDataBaseConnectionString))
+            {
+                con.Open();
+
+                string query =
+                    "SELECT * FROM Students WHERE StudentID = @id";
+
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.Parameters.AddWithValue("@id", studentId);
+
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                if (reader.Read()) {
+                    textBoxLastName.Text = reader["LastName"].ToString();
+                    textBoxFirstName.Text = reader["FirstName"].ToString();
+                    textBoxMiddleName.Text = reader["MiddleName"].ToString();
+                    dtBirthDate.Value = Convert.ToDateTime(reader["BirthDate"]);
+                    textBoxPhone.Text = reader["PhoneNumber"].ToString();
+                    textBoxEmail.Text = reader["Email"].ToString();
+                    textBoxAddress.Text = reader["Address"].ToString();
+                    comboBoxGroup.SelectedValue = reader["GroupID"];
+                }
+            }
+        }
     }
 }

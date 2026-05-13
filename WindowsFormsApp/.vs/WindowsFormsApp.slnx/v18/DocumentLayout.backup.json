@@ -3,27 +3,23 @@
   "WorkspaceRootPath": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__REPOSITORY_DRIVING_SCHOOL_IS_WINDOWSFORMSAPP_WINDOWSFORMSAPP_DRIVINGSCHOOLDATABASE.MDF/True/SqlTable/dbo.Groups.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\repository\\driving-school-is\\windowsformsapp\\windowsformsapp\\studentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\windowsformsapp\\studentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\studentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\repository\\driving-school-is\\windowsformsapp\\windowsformsapp\\studentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\studentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\repository\\driving-school-is\\windowsformsapp\\windowsformsapp\\managestudentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\managestudentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\repository\\driving-school-is\\windowsformsapp\\windowsformsapp\\managestudentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\managestudentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\repository\\driving-school-is\\windowsformsapp\\windowsformsapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\windowsformsapp\\studentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\studentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\windowsformsapp\\managestudentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\managestudentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__REPOSITORY_DRIVING_SCHOOL_IS_WINDOWSFORMSAPP_WINDOWSFORMSAPP_DRIVINGSCHOOLDATABASE.MDF/True/SqlTable/dbo.Students.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,42 +29,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 38,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "dbo.Groups [\u0414\u0430\u043D\u043D\u044B\u0435]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__REPOSITORY_DRIVING_SCHOOL_IS_WINDOWSFORMSAPP_WINDOWSFORMSAPP_DRIVINGSCHOOLDATABASE.MDF/True/SqlTable/dbo.Groups.sql",
-              "ToolTip": "dbo.Groups [\u0414\u0430\u043D\u043D\u044B\u0435]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-05-11T09:32:42.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ManageStudentsForm.cs",
               "DocumentMoniker": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\ManageStudentsForm.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp\\ManageStudentsForm.cs",
               "ToolTip": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\ManageStudentsForm.cs",
               "RelativeToolTip": "WindowsFormsApp\\ManageStudentsForm.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADEAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwEwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T09:16:26.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentsForm.cs",
-              "DocumentMoniker": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\StudentsForm.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp\\StudentsForm.cs",
-              "ToolTip": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\StudentsForm.cs",
-              "RelativeToolTip": "WindowsFormsApp\\StudentsForm.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAtwEMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T09:15:13.503Z",
+              "WhenOpened": "2026-05-13T09:08:23.212Z",
               "EditorCaption": ""
             },
             {
@@ -80,8 +53,30 @@
               "ToolTip": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\ManageStudentsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "WindowsFormsApp\\ManageStudentsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T08:44:46.978Z",
+              "WhenOpened": "2026-05-13T09:08:20.355Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.Students.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__REPOSITORY_DRIVING_SCHOOL_IS_WINDOWSFORMSAPP_WINDOWSFORMSAPP_DRIVINGSCHOOLDATABASE.MDF/True/SqlTable/dbo.Students.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__REPOSITORY_DRIVING_SCHOOL_IS_WINDOWSFORMSAPP_WINDOWSFORMSAPP_DRIVINGSCHOOLDATABASE.MDF/True/SqlTable/dbo.Students.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-13T09:01:01.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentsForm.cs",
+              "DocumentMoniker": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\StudentsForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\StudentsForm.cs",
+              "ToolTip": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\StudentsForm.cs",
+              "RelativeToolTip": "WindowsFormsApp\\StudentsForm.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAswHkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T09:15:13.503Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -93,18 +88,6 @@
               "RelativeToolTip": "WindowsFormsApp\\StudentsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-11T07:57:58.108Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\MainForm.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp\\MainForm.cs",
-              "ToolTip": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "WindowsFormsApp\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T07:51:57.037Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             }
           ]

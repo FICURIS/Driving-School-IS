@@ -29,8 +29,9 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnCancel = new System.Windows.Forms.Button();
-            this.btnSave = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.comboBoxGroup = new System.Windows.Forms.ComboBox();
+            this.dtBirthDate = new System.Windows.Forms.DateTimePicker();
             this.textBoxAddress = new System.Windows.Forms.TextBox();
             this.labelAddress = new System.Windows.Forms.Label();
             this.textBoxEmail = new System.Windows.Forms.TextBox();
@@ -44,9 +45,8 @@
             this.labelFirstName = new System.Windows.Forms.Label();
             this.textBoxLastName = new System.Windows.Forms.TextBox();
             this.labelLastName = new System.Windows.Forms.Label();
-            this.dtBirthDate = new System.Windows.Forms.DateTimePicker();
-            this.comboBoxGroup = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -76,25 +76,30 @@
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // btnCancel
+            // label1
             // 
-            this.btnCancel.Location = new System.Drawing.Point(203, 354);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(100, 35);
-            this.btnCancel.TabIndex = 13;
-            this.btnCancel.Text = "Отмена";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(30, 286);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(54, 16);
+            this.label1.TabIndex = 37;
+            this.label1.Text = "Группа";
             // 
-            // btnSave
+            // comboBoxGroup
             // 
-            this.btnSave.Location = new System.Drawing.Point(79, 354);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(100, 35);
-            this.btnSave.TabIndex = 12;
-            this.btnSave.Text = "Сохранить";
-            this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            this.comboBoxGroup.FormattingEnabled = true;
+            this.comboBoxGroup.Location = new System.Drawing.Point(156, 283);
+            this.comboBoxGroup.Name = "comboBoxGroup";
+            this.comboBoxGroup.Size = new System.Drawing.Size(208, 24);
+            this.comboBoxGroup.TabIndex = 36;
+            this.comboBoxGroup.SelectedIndexChanged += new System.EventHandler(this.comboBoxGroup_SelectedIndexChanged);
+            // 
+            // dtBirthDate
+            // 
+            this.dtBirthDate.Location = new System.Drawing.Point(156, 132);
+            this.dtBirthDate.Name = "dtBirthDate";
+            this.dtBirthDate.Size = new System.Drawing.Size(208, 22);
+            this.dtBirthDate.TabIndex = 35;
             // 
             // textBoxAddress
             // 
@@ -201,30 +206,25 @@
             this.labelLastName.TabIndex = 21;
             this.labelLastName.Text = "Фамилия";
             // 
-            // dtBirthDate
+            // btnCancel
             // 
-            this.dtBirthDate.Location = new System.Drawing.Point(156, 132);
-            this.dtBirthDate.Name = "dtBirthDate";
-            this.dtBirthDate.Size = new System.Drawing.Size(208, 22);
-            this.dtBirthDate.TabIndex = 35;
+            this.btnCancel.Location = new System.Drawing.Point(203, 354);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(100, 35);
+            this.btnCancel.TabIndex = 13;
+            this.btnCancel.Text = "Отмена";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // comboBoxGroup
+            // btnSave
             // 
-            this.comboBoxGroup.FormattingEnabled = true;
-            this.comboBoxGroup.Location = new System.Drawing.Point(156, 283);
-            this.comboBoxGroup.Name = "comboBoxGroup";
-            this.comboBoxGroup.Size = new System.Drawing.Size(208, 24);
-            this.comboBoxGroup.TabIndex = 36;
-            this.comboBoxGroup.SelectedIndexChanged += new System.EventHandler(this.comboBoxGroup_SelectedIndexChanged);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 286);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 16);
-            this.label1.TabIndex = 37;
-            this.label1.Text = "Группа";
+            this.btnSave.Location = new System.Drawing.Point(79, 354);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(100, 35);
+            this.btnSave.TabIndex = 12;
+            this.btnSave.Text = "Сохранить";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // ManageStudentsForm
             // 
@@ -234,6 +234,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "ManageStudentsForm";
             this.Text = "ManageStudentsForm";
+            this.Load += new System.EventHandler(this.ManageStudentsForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
