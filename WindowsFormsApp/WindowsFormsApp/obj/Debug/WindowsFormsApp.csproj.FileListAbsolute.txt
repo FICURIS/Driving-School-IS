@@ -23,3 +23,5 @@ D:\Repository\Driving-School-IS\WindowsFormsApp\WindowsFormsApp\obj\Debug\Window
 D:\Repository\Driving-School-IS\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.StudentsForm.resources
 D:\Repository\Driving-School-IS\WindowsFormsApp\WindowsFormsApp\bin\Debug\DrivingSchoolDataBase.mdf
 D:\Repository\Driving-School-IS\WindowsFormsApp\WindowsFormsApp\bin\Debug\DrivingSchoolDataBase_log.ldf
+D:\Repository\Driving-School-IS\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.ManageToryForm.resources
+D:\Repository\Driving-School-IS\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.TeoryLessonsForm.resources
