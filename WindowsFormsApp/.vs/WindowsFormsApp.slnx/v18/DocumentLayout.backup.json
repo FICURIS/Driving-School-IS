@@ -3,43 +3,20 @@
   "WorkspaceRootPath": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\repository\\driving-school-is\\windowsformsapp\\windowsformsapp\\manageinstructorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\manageinstructorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\repository\\driving-school-is\\windowsformsapp\\windowsformsapp\\managegroupsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\managegroupsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\repository\\driving-school-is\\windowsformsapp\\windowsformsapp\\managestudentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\managestudentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\repository\\driving-school-is\\windowsformsapp\\windowsformsapp\\groupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\groupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\repository\\driving-school-is\\windowsformsapp\\windowsformsapp\\managestudentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\managestudentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\repository\\driving-school-is\\windowsformsapp\\windowsformsapp\\groupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\groupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\repository\\driving-school-is\\windowsformsapp\\windowsformsapp\\instructorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\instructorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__REPOSITORY_DRIVING_SCHOOL_IS_WINDOWSFORMSAPP_WINDOWSFORMSAPP_DRIVINGSCHOOLDATABASE.MDF/True/SqlTable/dbo.Instructors.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\repository\\driving-school-is\\windowsformsapp\\windowsformsapp\\manageinstructorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\manageinstructorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\repository\\driving-school-is\\windowsformsapp\\windowsformsapp\\instructorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\instructorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\repository\\driving-school-is\\windowsformsapp\\windowsformsapp\\studentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\studentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\repository\\driving-school-is\\windowsformsapp\\windowsformsapp\\studentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\studentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\repository\\driving-school-is\\windowsformsapp\\windowsformsapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\repository\\driving-school-is\\windowsformsapp\\windowsformsapp\\managegroupsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{88288DD0-6D0E-45A7-9EDE-E486B8720969}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\managegroupsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,128 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 38,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ManageStudentsForm.cs",
-              "DocumentMoniker": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\ManageStudentsForm.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp\\ManageStudentsForm.cs",
-              "ToolTip": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\ManageStudentsForm.cs",
-              "RelativeToolTip": "WindowsFormsApp\\ManageStudentsForm.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAiwBcAAAAMAAAAAAAAAA==",
+              "Title": "GroupForm.cs",
+              "DocumentMoniker": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\GroupForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\GroupForm.cs",
+              "ToolTip": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\GroupForm.cs",
+              "RelativeToolTip": "WindowsFormsApp\\GroupForm.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAAwJIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T07:13:18.445Z",
+              "WhenOpened": "2026-05-14T08:40:58.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ManageInstructorsForm.cs",
-              "DocumentMoniker": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\ManageInstructorsForm.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp\\ManageInstructorsForm.cs",
-              "ToolTip": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\ManageInstructorsForm.cs",
-              "RelativeToolTip": "WindowsFormsApp\\ManageInstructorsForm.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAkwFUAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "GroupForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\GroupForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\GroupForm.cs",
+              "ToolTip": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\GroupForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsApp\\GroupForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T07:13:10.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ManageInstructorsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\ManageInstructorsForm.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp\\ManageInstructorsForm.cs",
-              "ToolTip": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\ManageInstructorsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "WindowsFormsApp\\ManageInstructorsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T07:12:05.76Z",
+              "WhenOpened": "2026-05-14T08:40:57.078Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "dbo.Instructors [\u0414\u0430\u043D\u043D\u044B\u0435]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__REPOSITORY_DRIVING_SCHOOL_IS_WINDOWSFORMSAPP_WINDOWSFORMSAPP_DRIVINGSCHOOLDATABASE.MDF/True/SqlTable/dbo.Instructors.sql",
-              "ToolTip": "dbo.Instructors [\u0414\u0430\u043D\u043D\u044B\u0435]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-05-14T06:38:27.471Z",
+              "DocumentIndex": 0,
+              "Title": "ManageGroupsForm.cs",
+              "DocumentMoniker": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\ManageGroupsForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\ManageGroupsForm.cs",
+              "ToolTip": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\ManageGroupsForm.cs*",
+              "RelativeToolTip": "WindowsFormsApp\\ManageGroupsForm.cs*",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwFMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T08:25:18.528Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "InstructorsForm.cs",
-              "DocumentMoniker": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\InstructorsForm.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp\\InstructorsForm.cs",
-              "ToolTip": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\InstructorsForm.cs",
-              "RelativeToolTip": "WindowsFormsApp\\InstructorsForm.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAEwDsAAAAJAAAAAAAAAA==",
+              "Title": "ManageGroupsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\ManageGroupsForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\ManageGroupsForm.cs",
+              "ToolTip": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\ManageGroupsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "RelativeToolTip": "WindowsFormsApp\\ManageGroupsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T06:37:01.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StudentsForm.cs",
-              "DocumentMoniker": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\StudentsForm.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp\\StudentsForm.cs",
-              "ToolTip": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\StudentsForm.cs",
-              "RelativeToolTip": "WindowsFormsApp\\StudentsForm.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAYwEkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T06:36:50.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InstructorsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\InstructorsForm.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp\\InstructorsForm.cs",
-              "ToolTip": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\InstructorsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "WindowsFormsApp\\InstructorsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T06:36:38.199Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ManageStudentsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\ManageStudentsForm.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp\\ManageStudentsForm.cs",
-              "ToolTip": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\ManageStudentsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "WindowsFormsApp\\ManageStudentsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T06:36:31.04Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "StudentsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\StudentsForm.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp\\StudentsForm.cs",
-              "ToolTip": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\StudentsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "WindowsFormsApp\\StudentsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T06:36:28.015Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\MainForm.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp\\MainForm.cs",
-              "ToolTip": "D:\\Repository\\Driving-School-IS\\WindowsFormsApp\\WindowsFormsApp\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "WindowsFormsApp\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T06:35:10.566Z",
+              "WhenOpened": "2026-05-14T08:20:48.776Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             }
           ]

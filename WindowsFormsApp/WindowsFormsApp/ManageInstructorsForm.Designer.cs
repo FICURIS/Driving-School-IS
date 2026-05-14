@@ -151,7 +151,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "ManageInstructorsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ManageInstructorsForm";
+            this.Text = "Редактирование инструктора";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

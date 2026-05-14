@@ -233,7 +233,7 @@
             this.ClientSize = new System.Drawing.Size(453, 464);
             this.Controls.Add(this.panel1);
             this.Name = "ManageStudentsForm";
-            this.Text = "ManageStudentsForm";
+            this.Text = "Редактирование студента";
             this.Load += new System.EventHandler(this.ManageStudentsForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
